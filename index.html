@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RN Design | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --bg: #0f172a;
+    --text: #ffffff;
+    --card: #1e293b;
+    --primary: #38bdf8;
+}
+
+.light-mode {
+    --bg: #f1f5f9;
+    --text: #0f172a;
+    --card: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #020617;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+    animation: logoAnim 1s ease forwards;
+}
+
+@keyframes logoAnim {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+/* TOGGLE */
+.toggle {
+    cursor: pointer;
+    padding: 8px 15px;
+    background: var(--primary);
+    color: black;
+    border-radius: 20px;
+    border: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero img {
+    width: 120px;
+    animation: logoAnim 1.5s ease;
+}
+
+.hero span {
+    color: var(--primary);
+}
+
+.typing {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: var(--primary);
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 10%;
+}
+
+h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+}
+
+.skill {
+    background: var(--card);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+/* LOGO TEXT */
+.logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: #38bdf8;
+    display: flex;
+    gap: 5px;
+}
+
+/* EACH LETTER */
+.logo span {
+    opacity: 0;
+    transform: translateY(20px);
+    display: inline-block;
+    animation: letterAnim 0.5s forwards;
+}
+
+/* ANIMATION */
+@keyframes letterAnim {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* GLOW EFFECT */
+.glow {
+    animation: glowAnim 2s infinite alternate;
+}
+
+@keyframes glowAnim {
+    from {
+        text-shadow: 0 0 5px #38bdf8;
+    }
+    to {
+        text-shadow: 0 0 20px #38bdf8, 0 0 40px #38bdf8;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="logo">
+        <h2 class="logo" id="logoText"></h2>
+    </div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+    </ul>
+
+    <button class="toggle" onclick="toggleMode()">🌙</button>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    
+    <h1>Hi, I'm <span>Niyogushimwa Remy</span></h1>
+    <div class="typing" id="typing"></div>
+
+    <a class="btn" href="https://wa.me/250793138244">Hire Me</a>
+    <a class="btn" href="mailto:niyogushimwaremy@gmail.com">Email Me</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I create professional designs and offer high-quality translation services.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">Logo Design</div>
+        <div class="skill">Brand Identity</div>
+        <div class="skill">UI/UX</div>
+        <div class="skill">Photoshop</div>
+        <div class="skill">Illustrator</div>
+        <div class="skill">Translation</div>
+        <div class="skill">Proofreading</div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Senior Designer</h3>
+        <p>Creative Agency (2022 - Present)</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 RN Design</p>
+</footer>
+
+<!-- JS -->
+<script>
+// DARK / LIGHT MODE
+function toggleMode() {
+    document.body.classList.toggle("light-mode");
+}
+
+// TYPING EFFECT
+const texts = ["Graphic Designer", "Creative Expert", "Translator"];
+let i = 0, j = 0, current = "", deleting = false;
+
+function type() {
+    current = texts[i];
+
+    if (!deleting) {
+        document.getElementById("typing").innerHTML = current.substring(0, j++);
+        if (j > current.length) {
+            deleting = true;
+            setTimeout(type, 1000);
+            return;
+        }
+    } else {
+        document.getElementById("typing").innerHTML = current.substring(0, j--);
+        if (j < 0) {
+            deleting = false;
+            i = (i + 1) % texts.length;
+        }
+    }
+
+    setTimeout(type, deleting ? 50 : 100);
+}
+const text = "RN Design";
+const container = document.getElementById("logoText");
+
+// Create animated letters
+text.split("").forEach((letter, index) => {
+    const span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = (index * 0.1) + "s";
+    container.appendChild(span);
+});
+
+// Add glow after animation
+setTimeout(() => {
+    container.classList.add("glow");
+}, 1200);
+
+type();
+</script>
+
+</body>
+</html>

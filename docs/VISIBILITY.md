@@ -19,6 +19,7 @@ because they require your own accounts.
 | `robots.txt` + `sitemap.xml` | Added |
 | Custom 404 page | Added |
 | Project READMEs (portfolio + SkillNest) | Added |
+| Search engine submission (IndexNow / Bing) | Submitted |
 | GitHub repo description, website link and topics | Added |
 | GitHub profile README with portfolio banner | Added |
 | Print-ready one-page CV (PDF) | Added and linked |
@@ -28,6 +29,10 @@ because they require your own accounts.
 ## 2. Google Search Console (do this first)
 
 Google needs to know the site exists. This is free and takes about 10 minutes.
+
+> A property was already verified for the GitHub Pages mirror. Because the site now lives on
+> Vercel, add a **second** property for `https://remyportfolio.vercel.app/` — the verification
+> code is unique to each property, so the old one will not carry over.
 
 1. Go to https://search.google.com/search-console
 2. Sign in with `niyogushimwaremy@gmail.com`.

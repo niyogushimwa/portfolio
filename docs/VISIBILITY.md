@@ -58,6 +58,10 @@ Indexing usually takes a few days to a few weeks. It is not instant.
 
 ## 3. LinkedIn (most important for jobs)
 
+> **Full copy-paste kit:** [`docs/LINKEDIN-KIT.md`](LINKEDIN-KIT.md) — headline, About section,
+> skills, projects, launch post and a ready-to-upload banner
+> (`docs/assets/linkedin-banner.png`).
+
 Your LinkedIn URL is currently:
 
 `https://www.linkedin.com/in/remy-niyogushimwa-7033a5377`

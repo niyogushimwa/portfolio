@@ -86,6 +86,12 @@ The site is deployed with **GitHub Pages** from the `main` branch (root folder):
 2. GitHub Pages rebuilds automatically.
 3. Live at https://niyogushimwa.github.io/portfolio/
 
+## Getting found
+
+A practical checklist for Google, Bing, LinkedIn and GitHub lives in
+[`docs/VISIBILITY.md`](docs/VISIBILITY.md) — including Search Console setup, LinkedIn copy,
+keywords and a 30-day plan.
+
 ## Contact
 
 - **Email:** [niyogushimwaremy@gmail.com](mailto:niyogushimwaremy@gmail.com)

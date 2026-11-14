@@ -50,7 +50,7 @@ I build clean, responsive websites with HTML, CSS and JavaScript, and I practise
 
 I am organised, detail-focused and always learning through real projects. I am open to internships, junior web development roles, digital design work, translation support and collaboration.
 
-Portfolio: https://niyogushimwa.github.io/portfolio/
+Portfolio: https://remyportfolio.vercel.app/
 GitHub: https://github.com/niyogushimwa
 Email: niyogushimwaremy@gmail.com
 ```
@@ -106,7 +106,7 @@ LinkedIn → **Add profile section** → **Recommended** → **Add featured**.
 
 Add:
 
-1. **My portfolio** — `https://niyogushimwa.github.io/portfolio/`
+1. **My portfolio** — `https://remyportfolio.vercel.app/`
 2. **SkillNest** — `https://github.com/niyogushimwa/SkillNest`
 
 LinkedIn will pull the preview image from the site. Use the portfolio's preview image
@@ -127,7 +127,7 @@ LinkedIn → **Add profile section** → **Additional** → **Add projects**.
 Designed and built a responsive personal portfolio from scratch using HTML, CSS and JavaScript. Includes dark/light themes, accessible navigation, scroll animations, SEO metadata, structured data and a downloadable CV. Deployed with GitHub Pages.
 ```
 
-- **Project URL:** `https://niyogushimwa.github.io/portfolio/`
+- **Project URL:** `https://remyportfolio.vercel.app/`
 - **Associated with:** University of Rwanda (optional)
 
 ### Project 2
@@ -194,7 +194,7 @@ What is inside:
 
 I am open to internships and junior opportunities in web development, design and IT support.
 
-👉 https://niyogushimwa.github.io/portfolio/
+👉 https://remyportfolio.vercel.app/
 
 #WebDevelopment #HTML #CSS #JavaScript #Rwanda #OpenToWork #SoftwareDevelopment #Frontend
 ```

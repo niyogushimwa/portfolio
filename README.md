@@ -4,9 +4,9 @@ A modern, responsive personal portfolio for **Remy Niyogushimwa**, a software de
 student at the University of Rwanda and an A2 Software Development graduate based in
 Huye, Rwanda.
 
-**Live site:** https://niyogushimwa.github.io/portfolio/
+**Live site:** https://remyportfolio.vercel.app/
 
-[![Live site](https://img.shields.io/badge/live-portfolio-38bdf8?style=flat-square&logo=githubpages&logoColor=white)](https://niyogushimwa.github.io/portfolio/)
+[![Live site](https://img.shields.io/badge/live-portfolio-38bdf8?style=flat-square&logo=vercel&logoColor=white)](https://remyportfolio.vercel.app/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
@@ -80,11 +80,15 @@ Then visit <http://localhost:8080>.
 
 ## Deployment
 
-The site is deployed with **GitHub Pages** from the `main` branch (root folder):
+**Vercel** is the primary host — https://remyportfolio.vercel.app/
 
-1. Push changes to `main`.
-2. GitHub Pages rebuilds automatically.
-3. Live at https://niyogushimwa.github.io/portfolio/
+1. Push changes to `main` on GitHub.
+2. Vercel picks up the push and redeploys automatically.
+3. GitHub Pages also rebuilds from `main` (root folder) as a mirror at
+   <https://niyogushimwa.github.io/portfolio/>.
+
+The canonical URL, Open Graph tags, JSON-LD, `sitemap.xml` and `robots.txt` all point to the
+Vercel domain, so search engines index a single canonical address.
 
 ## Getting found
 

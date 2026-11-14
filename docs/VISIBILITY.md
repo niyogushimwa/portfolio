@@ -11,8 +11,8 @@ because they require your own accounts.
 
 | Item | Status |
 | --- | --- |
-| Modern responsive portfolio | Live at https://niyogushimwa.github.io/portfolio/ |
-| Custom domain-ready GitHub Pages hosting | Enabled |
+| Modern responsive portfolio | Live at https://remyportfolio.vercel.app/ |
+| Hosting | **Vercel** (primary) + GitHub Pages (mirror) |
 | SEO title, description and keywords | Added |
 | Open Graph + Twitter card preview | Added (`assets/img/og-cover.jpg`) |
 | Structured data (Person, WebSite, FAQ) | Added |
@@ -32,7 +32,7 @@ Google needs to know the site exists. This is free and takes about 10 minutes.
 1. Go to https://search.google.com/search-console
 2. Sign in with `niyogushimwaremy@gmail.com`.
 3. Click **Add property** → choose **URL prefix**.
-4. Enter: `https://niyogushimwa.github.io/portfolio/`
+4. Enter: `https://remyportfolio.vercel.app/`
 5. Choose **HTML tag** verification.
 6. Copy the meta tag Google gives you, for example:
 
@@ -98,7 +98,7 @@ Paste and adapt this:
 > internships, junior web development roles, digital design work, translation support and
 > collaboration.
 >
-> Portfolio: https://niyogushimwa.github.io/portfolio/
+> Portfolio: https://remyportfolio.vercel.app/
 > GitHub: https://github.com/niyogushimwa
 > Email: niyogushimwaremy@gmail.com
 
@@ -151,7 +151,7 @@ Choose "Recruiters only" if you prefer not to show the green banner publicly.
 >
 > I am open to internships and junior opportunities in web development, design and IT support.
 >
-> 👉 https://niyogushimwa.github.io/portfolio/
+> 👉 https://remyportfolio.vercel.app/
 >
 > #WebDevelopment #HTML #CSS #JavaScript #Rwanda #OpenToWork #SoftwareDevelopment
 
@@ -169,7 +169,7 @@ Still worth doing manually:
 2. Add a bio and location in **Settings → Public profile**:
    - Bio: `Software Development Student @ University of Rwanda | Web design, programming & translation tools | Huye, Rwanda`
    - Location: `Huye, Rwanda`
-   - Website: `https://niyogushimwa.github.io/portfolio/`
+   - Website: `https://remyportfolio.vercel.app/`
 3. Keep commit messages meaningful (`Add mobile navigation`, not `update`).
 4. Add a README to every repository you want people to look at.
 

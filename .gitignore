@@ -1,0 +1,10 @@
+# Local source files (not part of the website)
+/mine.jpg
+/Remy_Niyogushimwa_BIT_CV_FIXED.docx
+/make-images.ps1
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

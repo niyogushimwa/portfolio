@@ -1066,6 +1066,25 @@ button {
     var(--surface-2);
 }
 
+.project-visual-hano {
+  background:
+    radial-gradient(24rem 16rem at 25% 18%, rgba(219, 34, 39, 0.26), transparent 62%),
+    radial-gradient(20rem 14rem at 80% 88%, rgba(251, 113, 133, 0.16), transparent 60%),
+    var(--surface-2);
+}
+
+.project-visual-pharma {
+  background:
+    radial-gradient(24rem 16rem at 78% 20%, rgba(16, 185, 129, 0.22), transparent 62%),
+    radial-gradient(20rem 14rem at 18% 88%, rgba(56, 189, 248, 0.16), transparent 60%),
+    var(--surface-2);
+}
+
+.mock-hero-hano span { background: #db2227; }
+.mock-hero-pharma span { background: #10b981; }
+.mock-grid-hano div { background: linear-gradient(160deg, rgba(219, 34, 39, 0.22), rgba(251, 113, 133, 0.08)); }
+.mock-grid-pharma div { background: linear-gradient(160deg, rgba(16, 185, 129, 0.2), rgba(56, 189, 248, 0.08)); }
+
 .project-badge {
   position: absolute;
   top: 18px;
